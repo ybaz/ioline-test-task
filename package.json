@@ -12,8 +12,10 @@
     "cypress-wait-until": "^2.0.0"
   },
   "scripts": {
-    "test:headless": "cypress run --browser",
-    "test:open": "cypress open"
+    "test:headless:uk": "cypress run --env tenant=uk --browser",
+    "test:headless:ua": "cypress run --env tenant=ua --browser",
+    "test:open:uk": "cypress open --env tenant=uk",
+    "test:open:ua": "cypress open --env tenant=ua"
   },
   "author": "Yurii Bazaka",
   "license": "ISC"

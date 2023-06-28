@@ -1,5 +1,6 @@
 import HomePage from "../pages/HomePage";
 import ApplicationFormPage from "../pages/ApplicationFormPage";
+import { tenant } from "../setup"
 
 describe('Iodine Website Automation Task', () => {
   const homePage = new HomePage()
@@ -11,7 +12,8 @@ describe('Iodine Website Automation Task', () => {
   })
 
   it('Check warning pop up appears when email field is empty', () => {
-    const popUpMessage = 'Please fill out this field.'
+    const popUpMessage = Cypress.env(tenant).validationMessage
+    cy.log(`Expected pop-up message: '${popUpMessage}'`)
 
     const position = 'Software Development Engineer in Test - SDET'
     const firstName = 'Somename'

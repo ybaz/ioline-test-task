@@ -11,4 +11,12 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
     },
   },
+  env: {
+    uk: {
+      validationMessage: 'Please fill in this field.'
+    },
+    ua: {
+      validationMessage: 'Please fill out this field.'
+    }
+  }
 });
