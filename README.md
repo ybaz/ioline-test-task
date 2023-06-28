@@ -14,8 +14,10 @@ You can run this framework on both Windows or Mac OS
 npm install
 ```
 
-## Environment
-Two environments are supported: [uk, ua]
+## Tenants
+Choose your tenant depends from your location
+
+Two tenants are supported: [uk, ua]
 
 Each tenant has different validation message translation
 
