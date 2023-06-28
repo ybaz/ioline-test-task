@@ -27,7 +27,7 @@ uk environment:
 test:open:uk
 ```
 
-uk environment:
+ua environment:
 ```
 test:open:ua
 ```
