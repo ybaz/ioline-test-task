@@ -1,0 +1,20 @@
+{
+  "name": "test-task",
+  "version": "1.0.0",
+  "description": "Test task for Ioline",
+  "main": "cypress.config.js",
+  "dependencies": {
+    "eslint-plugin-cypress": "^2.13.3"
+  },
+  "devDependencies": {
+    "cypress": "^12.16.0",
+    "cypress-iframe": "^1.0.1",
+    "cypress-wait-until": "^2.0.0"
+  },
+  "scripts": {
+    "test:headless": "cypress run --browser",
+    "test:open": "cypress open"
+  },
+  "author": "Yurii Bazaka",
+  "license": "ISC"
+}
