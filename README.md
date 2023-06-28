@@ -16,6 +16,7 @@ npm install
 
 ## Environment
 Two environments are supported: [uk, ua]
+
 Each tenant has different validation message translation
 
 ## Open Cypress GUI (local run)
