@@ -13,9 +13,9 @@
   },
   "scripts": {
     "test:headless:uk": "cypress run --env tenant=uk --browser",
-    "test:headless:ua": "cypress run --env tenant=ua --browser",
+    "test:headless:eu": "cypress run --env tenant=eu --browser",
     "test:open:uk": "cypress open --env tenant=uk",
-    "test:open:ua": "cypress open --env tenant=ua"
+    "test:open:eu": "cypress open --env tenant=eu"
   },
   "author": "Yurii Bazaka",
   "license": "ISC"

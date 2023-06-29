@@ -17,7 +17,7 @@ npm install
 ## Tenants
 Choose your tenant depends from your location
 
-Two tenants are supported: [uk, ua]
+Two tenants are supported: [uk, eu]
 
 Each tenant has different validation message translation
 
@@ -27,9 +27,9 @@ uk environment:
 test:open:uk
 ```
 
-ua environment:
+eu environment:
 ```
-test:open:ua
+test:open:eu
 ```
 
 ## Headless run
@@ -38,12 +38,12 @@ uk environment
 npm run test:headless:uk ${browser}
 ```
 
-ua environment
+eu environment
 ```
-npm run test:headless:ua ${browser}
+npm run test:headless:eu ${browser}
 ```
 
 example:
 ```
-npm run test:headless:ua chrome
+npm run test:headless:eu chrome
 ```

@@ -15,7 +15,7 @@ module.exports = defineConfig({
     uk: {
       validationMessage: 'Please fill in this field.'
     },
-    ua: {
+    eu: {
       validationMessage: 'Please fill out this field.'
     }
   }
